@@ -61,7 +61,7 @@ jobs:
         run: |
           mkdir -p games
           cd games
-          git clone --depth 1 --single-branch --branch mineclonia_mapgen https://codeberg.org/mineclonia/mineclonia.git
+          git clone --depth 1 https://codeberg.org/mineclonia/mineclonia.git
 
       - name: Apply patch
         working-directory: minetest
