@@ -9,7 +9,7 @@ index eaf1e3571..049272be6 100644
 +		copy {
 +			from "${projRoot}/clientmods" into "${assetsFolder}/clientmods"
 +		}
-+				copy {
++		copy {
 +			from "${projRoot}/games" into "${assetsFolder}/games"
 +		}
  
